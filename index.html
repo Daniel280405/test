@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- pop up button -->
+    <div class="popup-info">
+        <div class="tampil" id="tampil">
+            <div class="tampil-body">
+                <div>
+                    <h2>SELAMAT DATANG DI WEBSITE SAYA</h2>
+                    <p><br></p>
+                    <button onclick=" putarmusic()">LANJUTKAN</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- background video -->
+    <header>
+        <video id="bg-video" autoplay muted loop>
+            <source src="videoplayback.mp4" type="video/mp4" />
+        </video>
+        <div class="video-info">
+            <div>
+                <h1>----  Curriculum Vitae  ----</h1>
+            </div>
+            <br><br><br>
+            <div>
+                <img src="IMG20201103060225-picsay.jpg" width="230px" height="300px" align="center" />
+            </div>
+            <br><br><br>
+            <div>
+                <h1>Profil</h1>
+                <p>Nama         : DANIEL JOEVANY ANDREANTO</p>
+                <p>Tempat Lahir	: Mojokerto</p>
+                <p>Umur	        : 17 Tahun</p>
+                <p>Alamat	    : Ds.Pacekulon Kec.Pace Kab.Nganjuk</p>
+            </div>
+            <br><br>
+            <div>
+                <h1>Pendidikan</h1>
+                <p>Sekolah	    : SMK Negeri 1 Bagor</p>
+                <p>Jurusan	    : Teknik Komputer & Jaringan</p>
+            </div>
+            <br><br>
+            <div>
+                <h1>Keahlian</h1>
+                <p>Games	    : Joki Rank ML, Free Fire, PUBGM</p>
+                <p>Vscode	    : HTML, CSS</p>
+            </div>
+            <br><br>
+            <div>
+                <h1>Pengalaman</h1>
+                <p>PKL	        : TELKOM NGANJUK</p>
+            </div>
+            <br><br>
+            <div>
+                <h1>Kontak</h1>
+                <p>Hobby	    : Main Game</p>
+                <p>Gmail	    : joevanyjoevita@gmail.com</p>
+                <p>No. Telepon	: 085812429655</p>
+                <p>Facebook	    : <a href="https://www.facebook.com/joe.vany.735"> Thanos Sergio</a></p>
+                <p>Instagram    : <a href="http://instagram.com/joopaan_"> joopaan_</a></p>
+            </div>
+            <br><br><br><br>
+            <br><br><br><br>
+            <br><br><br><br>
+            <div>
+                <p>Created with HTML DanielDOMGE</p>
+            </div>
+    </header>
+
+    <div class="background">
+        <img src="black-color-solid-background-1920x1080.png" width="600" height="1024">
+    </div>
+
+    <!-- script -->
+    <script>
+		var a = document.getElementById('tampil');
+		function putarmusic(){
+			a.style.display = "none";
+			var audio = new Audio('audio.mp3');
+			audio.play();
+		}
+	</script>
+</body>
+</html>
